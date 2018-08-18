@@ -1,0 +1,140 @@
+/* See the documentation for how to load in regular weight versions */
+@font-face {
+	font-family: 'Benton';
+	src: url('https://apps.bostonglobe.com/common/font/benton-bold.woff2') format('woff2'), url('https://apps.bostonglobe.com/common/font/benton-bold.woff') format('woff');
+    font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Miller';
+	src: url('https://apps.bostonglobe.com/common/font/miller-bold.woff2') format('woff2'), url('https://apps.bostonglobe.com/common/font/miller-bold.woff') format('woff');
+    font-weight: 600;
+}
+
+/* =========================== */
+/* Globe font stack examples
+/* =========================== */
+
+/* Serif (Miller) */
+/* font-family: 'Miller', Georgia, Times New Roman, Times, serif; */
+/* font-weight: 600; */
+
+/* Sans-serif (Benton) */
+/* font-family: 'Benton', Helvetica, Arial, sans-serif; */
+/* font-weight: 600; */
+
+/* Serif */
+/* font-family: 'Georgia', Times New Roman, Times, serif; */
+
+/* Sans-serif */
+/* font-family: 'Helvetica', Arial, sans-serif; */
+
+/* =========================== */
+/* Graphic styles
+/* =========================== */
+.graphichead {font-family:'BentonSans', Helvetica, Arial, sans-serif; font-size:1.2em;font-weight:bold; display:block;}
+.subtitle {font-family:'BentonSans', Helvetica, Arial, sans-serif; font-size:0.9em; line-height:1.4em; margin-top:20px; margin-bottom:15px; }
+.chart_container{
+	width: 100%;
+
+}
+h3.lead_text{
+	font-family:'BentonSans', Helvetica, Arial, sans-serif;
+	font-size:0.9em;
+	font-weight:bold;
+}
+h4.text_men{
+	font-family:'BentonSans', Helvetica, Arial, sans-serif;
+	font-size:0.8em;
+	margin-bottom: 6px;
+	font-weight: bold;
+}
+h4.text_women{
+	font-family:'BentonSans', Helvetica, Arial, sans-serif;
+	font-size:0.8em;
+	margin-bottom: 6px;
+	font-weight: bold;
+}
+.waffle_chart{
+	margin-top: 8px;
+
+}
+
+.chart{
+	/* display: flex; */
+	/* display: inline; */
+	/* display: inline;
+	font-size: 0.9em;
+	text-align: right; */
+}
+
+
+
+.chart_pairs{
+	margin: 15px 0 15px 0;
+}
+.squareBox1 {
+	height: 18px;
+	width: 18px;
+	display:inline-block;
+	background:rgba(31, 119, 180, 1);
+
+}
+
+.squareBox2 {
+	height: 18px;
+	width: 18px;
+	display:inline-block;
+	background:rgba(214, 39, 40, 1);
+
+}
+
+.squareBox3 {
+	height: 18px;
+	width: 18px;
+	display:inline-block;
+	background:rgba(255,127,14, 1);
+
+}
+
+.squareBox4 {
+	height: 18px;
+	width: 18px;
+	display:inline-block;
+	background:rgba(44, 160, 44, 1);
+
+}
+
+h1{
+	font-weight: bold;
+	/* top:100px;
+	text-align: center; */
+	font-size:1.0em;
+}
+.square_legend{
+	display: flex;
+}
+p.legend_piece{
+	margin-right: 10px;
+
+}
+.legend_container{
+	/* position: absolute; */
+	/* right: 10px;
+	top:10px; */
+	/* padding: 10px; */
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-family:'BentonSans', Helvetica, Arial, sans-serif;
+	font-size:0.8em
+	padding: 5px;
+}
+
+p.asterick{
+	font-weight: 700;
+	padding: 10px 0 10px 0;
+	font-size: 12px;
+	font-family: Georgia,Times New Roman,Times,serif;
+	line-height: 1.6;
+
+}
